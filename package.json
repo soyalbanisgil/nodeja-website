@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-website",
+  "version": "1.0.0",
+  "description": "First website with Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src"
+  },
+  "keywords": [],
+  "author": "Karen Albanis Gil",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
